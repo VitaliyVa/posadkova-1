@@ -1,0 +1,143 @@
+@charset "UTF-8";
+.warning {
+  background: url("https://d.radikal.ru/d39/1911/ae/6079d126501d.png") no-repeat right top 300px; }
+
+.bg-wrap {
+  background: url("https://d.radikal.ru/d17/1911/21/2c2bbbaa836f.png") no-repeat left top 200px; }
+
+.title-warning {
+  margin-top: 50px; }
+
+.disk-wrap {
+  margin-top: 80px;
+  display: flex; }
+
+.disk-profile {
+  /* Style for "Прямоуголь" */
+  position: relative;
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #17181f 0%, rgba(23, 24, 31, 0) 100%);
+  margin-right: 20px;
+  transition: all .2s; }
+  .disk-profile img {
+    width: 100%; }
+  .disk-profile:hover {
+    transform: scale(1.22);
+    background-color: #90b373;
+    z-index: 5; }
+
+.sub_disk {
+  position: absolute;
+  top: 176px;
+  left: auto;
+  text-align: center; }
+
+#sub_disk-2 {
+  left: 97px;
+  top: 190px; }
+
+.quest-block {
+  display: flex; }
+
+.easy-btn {
+  margin-top: 207px;
+  margin-left: 206px; }
+
+.quest-profile {
+  display: flex;
+  max-width: 435px;
+  margin-top: 50px; }
+
+#quest-profile-4 {
+  margin-bottom: 50px; }
+
+.big-numb {
+  color: #6f9d4a;
+  margin-right: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.btn-warning {
+  margin-bottom: 100px; }
+
+.disk-block-1, .disk-block-2 {
+  display: flex;
+  justify-content: space-between; }
+
+@media (max-width: 1180px) {
+  .warning {
+    background: url("../img/warning/warning-bg-2.png") no-repeat right top 600px; }
+
+  .disk-block-1, .disk-block-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+
+  .disk-wrap {
+    justify-content: center; } }
+@media (max-width: 1056px) {
+  .easy-btn {
+    margin-top: 240px;
+    margin-left: 175px; } }
+@media (max-width: 1013px) {
+  .easy-btn {
+    margin-top: 240px;
+    margin-left: 147px; } }
+@media (max-width: 964px) {
+  .easy-btn {
+    margin-top: 250px;
+    margin-left: 104px; } }
+@media (max-width: 959px) {
+  #sub_disk-4 {
+    padding-left: 15px; } }
+@media (max-width: 918px) {
+  .easy-btn {
+    margin-top: 260px;
+    margin-left: 54px; } }
+@media (max-width: 866px) {
+  .easy-btn {
+    margin-top: 260px;
+    margin-left: 54px; } }
+@media (max-width: 832px) {
+  .warning {
+    background: url("../img/warning/warning-bg-2.png") no-repeat right top 700px;
+    background-size: 40%; } }
+@media (max-width: 630px) {
+  .warning {
+    background: url("../img/warning/warning-bg-2.png") no-repeat right top 1299px;
+    background-size: 29%; }
+
+  .disk-wrap {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; } }
+@media (max-width: 595px) {
+  .easy-btn {
+    margin-top: 210px; }
+    .easy-btn img {
+      width: 87%; } }
+@media (max-width: 525px) {
+  .easy-btn img {
+    width: 87%; } }
+@media (max-width: 425px) {
+  .warning {
+    background: url("../img/warning/warning-bg-2.png") no-repeat right top 1239px;
+    background-size: 49%; }
+
+  .quest-block {
+    flex-direction: column-reverse; }
+
+  .easy-btn img {
+    width: 80%; } }
+@media (max-width: 410px) {
+  .quest-wrap {
+    width: 205px; }
+
+  .surp-suptitle {
+    width: 300px; } }
+
+/*# sourceMappingURL=warning.css.map */

@@ -1,0 +1,276 @@
+.warning {
+	
+	background: url('../img/bg-war-2.png') no-repeat right top 300px;
+	
+}
+.bg-wrap-wrap {
+	background: url('../img/war-bg.png')center top no-repeat / cover;
+}
+.bg-wrap {
+	
+}
+.title-warning {
+	margin-top: 50px;
+}
+.disk-wrap {
+	margin-top: 80px;
+	display: flex;
+
+}
+.disk-profile {
+	/* Style for "Прямоуголь" */
+	position: relative;
+	/* Style for "Прямоуголь" */
+	width: 200px;
+	height: 176px;
+	border-radius: 5px;
+	background-color: #43454e;
+	cursor: pointer;
+	text-align: left;
+	margin: 20px;
+	
+	img {
+		width: 100%;
+	}
+	transition: transform .2s, background-color .2s;
+	&:hover {
+		transform: scale(1.22);
+		background-color: #90b373;
+		z-index: 5;
+
+		.hvr-bounce-to-bottom, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
+		  color: white;
+		}
+		.hvr-bounce-to-bottom:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
+		  -webkit-transform: scaleY(1);
+		  transform: scaleY(1);
+		  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+		  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+		}
+	}
+
+}
+.hvr-bounce-to-bottom {
+  
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #90b373 0%, #90b373 100%);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-bottom {
+	/* Style for "Прямоуголь" */
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	text-align: center;
+	align-items: center;
+	width: 31px;
+	height: 30px;
+	border-radius: 5px;
+	background-image: linear-gradient(to top, #6f9d4a 0%, #84c153 100%);
+	color: #ffffff;
+	padding-top: 5px;
+	font-size: 18px;
+	font-weight: 900;
+}
+.disk-profile-2 {
+	width: 306px;
+	height: 176px;
+}
+.sub_disk {
+	position: absolute;
+	top: 103px;
+	left: auto;
+	padding: 15px;
+	text-align: left;
+}
+#sub_disk-2 {
+
+	left: 97px;
+	top: 190px;
+}
+.quest-block {
+	display: flex;
+
+}
+.easy-btn {
+	margin-top: 207px;
+    margin-left: 206px;
+   
+}
+.quest-profile {
+	display: flex;
+
+	max-width: 435px;
+	margin-top: 50px;
+}
+#quest-profile-4 {
+	margin-bottom: 50px;
+}
+.big-numb {
+	color: #6f9d4a;
+	margin-right: 20px;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.btn-warning {
+	margin-bottom: 100px;
+}
+.disk-block-1 {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+@media (max-width: 1180px) {
+	.warning {
+	
+	background: url('../img/bg-war-2.png') no-repeat right top 600px;
+	
+	}
+	.disk-block-1, .disk-block-2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	}
+	.disk-wrap {
+	justify-content: center;
+	}
+}
+@media (max-width: 1056px) {
+	.easy-btn {
+		margin-top: 240px;
+		margin-left: 175px;
+	}
+}
+@media (max-width: 1013px) {
+	.easy-btn {
+		margin-top: 240px;
+		margin-left: 147px;
+	}
+}
+@media (max-width: 964px) {
+	.easy-btn {
+		margin-top: 250px;
+		    margin-left: 104px;
+	}
+}
+@media (max-width: 959px) {
+	#sub_disk-4 {
+		padding-left: 15px;
+	}
+}
+@media (max-width: 918px) {
+	.easy-btn {
+		margin-top: 260px;
+		margin-left: 54px
+	}
+}
+@media (max-width: 866px) {
+	.easy-btn {
+		margin-top: 260px;
+		margin-left: 54px
+	}
+} 
+@media (max-width: 832px) {
+	.warning {
+		background: url('../img/bg-war-2.png') no-repeat right top 700px;
+		background-size: 40%;
+	}
+}
+@media (max-width: 630px) {
+	.warning {
+   
+    background-size: 29%;
+	}
+	.disk-wrap {
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	}
+}
+@media (max-width: 595px) {
+	.easy-btn {
+		margin-top: 210px;
+		img {
+			width: 87%;
+		}
+	}
+}
+@media (max-width: 525px) {
+	.easy-btn {
+		img {
+			width: 87%;
+		}
+	}
+}
+@media (max-width: 425px) {
+	.warning {
+   background: url('../img/bg-war-2.png') no-repeat right top 751px;
+    background-size: 55%;
+	}
+	.quest-block {
+		flex-direction: column-reverse;
+	}
+	.title-warning {
+		margin-top: 231px;
+	}
+	.title-fix {
+		margin-top: 350px;
+	}
+
+
+}
+@media (max-width: 410px) {
+	.quest-wrap {
+		width: 205px;
+	}
+	.disk-profile {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.surp-suptitle {
+		width: 300px;
+	}
+	.disk-profile-2 {
+	    width: 255px;
+	    height: 146px;
+
+
+	    .sub_disk {
+	      
+	        top: 84px;
+	    }
+	}
+}
+
